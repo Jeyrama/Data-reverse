@@ -25,3 +25,5 @@ const dataReverse = data => {
   }
   return bytes;
 }
+
+// or
