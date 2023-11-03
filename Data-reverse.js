@@ -27,3 +27,11 @@ const dataReverse = data => {
 }
 
 // or
+
+const reverseData = data => {
+  const result = [];
+  while(data.length) {
+    result.push(...data.splice(-8))
+  }
+  return result;
+}
